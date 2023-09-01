@@ -12,6 +12,6 @@ func main() {
 		log.Fatalf("Could not load config, %v", err)
 	}
 
-	l := logger.New(config.LogLevel)
+	logger.New(config.LogLevel)
 
 }
